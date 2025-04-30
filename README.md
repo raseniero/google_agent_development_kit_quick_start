@@ -45,8 +45,6 @@ cp .env.example .env
 ```
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/credentials.json
 GOOGLE_CLOUD_PROJECT=your-project-id
-AGENT_NAME=weather_time_agent
-AGENT_MODEL=gemini-2.0-flash
 ```
 
 3. Set up Google Cloud credentials:
@@ -58,9 +56,14 @@ AGENT_MODEL=gemini-2.0-flash
 
 ## Usage
 
+1. Navigate to the parent directory of your agent project
+```bash
+cd ..\
+```
+
 1. Start the agent:
 ```bash
-python -m multi_tool_agent.agent
+adk web
 ```
 
 2. Example queries:
