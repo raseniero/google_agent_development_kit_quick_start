@@ -117,7 +117,7 @@ Common issues and solutions:
 
 ## License
 
-[Add your license information here]
+MIT License
 
 ## Contributing
 
